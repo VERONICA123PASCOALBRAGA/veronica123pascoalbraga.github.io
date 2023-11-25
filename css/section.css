@@ -56,6 +56,8 @@
 .tecnologia-container {
   width: 1200px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .tecnologia-item {
   width: 600px;
@@ -118,4 +120,36 @@
 }
 .modelo-item p :first-child {
   margin-right: 20px;
+}
+.componentes {
+  max-width: 550px;
+}
+.parceiros {
+  width: 1200px;
+  margin: 0 auto;
+}
+.parceiros h1 {
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 60px 0;
+}
+.parceiros h1::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #faee02;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 4px;
+  border-radius: 4px;
+}
+.parceiros ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 100px;
+}
+.parceiros li {
+  padding: 20px 0;
+  font-size: 2rem;
+  width: 300px;
 }

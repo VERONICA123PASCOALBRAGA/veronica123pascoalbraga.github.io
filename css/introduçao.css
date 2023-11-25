@@ -47,6 +47,8 @@
   background: #e0d61e;
 }
 .nimbus {
+  object-fit: cover;
+  object-position: right left;
   max-width: 600px;
   border-radius: 5px;
 }
