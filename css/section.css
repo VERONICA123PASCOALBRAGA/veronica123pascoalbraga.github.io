@@ -1,0 +1,121 @@
+.bicicletas {
+  width: 1400px;
+  padding: 200px 0;
+}
+.bicicletas h1 {
+  padding: 0 0 40px 350px;
+  display: flex;
+  font-size: 4.2rem;
+  font-family: sans-serif;
+  position: relative;
+}
+.bicicletas h1::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #faee02;
+  position: absolute;
+  border-radius: 4px;
+  margin-top: 55px;
+  margin-left: 445px;
+}
+.bicicletas-item {
+  width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 250px;
+  gap: 20px;
+}
+.bicicletas img {
+  max-width: 440px;
+  border-radius: 4px;
+}
+.bicicletas h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  margin: 15px 0 15px 20px;
+}
+.bicicletas h2::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  background: #faee02;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.bicicletas p {
+  font-size: 1.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #6c6c6c;
+  margin-left: 20px;
+}
+.tecnologia {
+  background: rgba(6, 4, 12, 0.985);
+}
+.tecnologia-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.tecnologia-item {
+  width: 600px;
+  padding: 60px 0;
+  color: white;
+}
+.tecnologia-item h3 {
+  color: #d6d6d2;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.tecnologia-item h1 {
+  font-size: 4.565rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 30px;
+}
+.tecnologia-item h1::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #faee02;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+.tecnologia-item p {
+  color: #d6d6d2;
+  font-size: 1.565rem;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tecnologia-item a {
+  display: block;
+  color: #faee02;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 30px 0;
+}
+.modelo-item {
+  display: inline-block;
+}
+.modelo-item img {
+  width: 25px;
+  margin-top: 50px;
+}
+.modelo-item h2 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.modelo-item p {
+  font-size: 0.955rem;
+  width: 250px;
+  line-height: 1.4;
+}
+.modelo-item p :first-child {
+  margin-right: 20px;
+}

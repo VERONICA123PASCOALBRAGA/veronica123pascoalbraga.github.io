@@ -1,0 +1,52 @@
+.introduçao {
+  background: #000;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.introduçao-container {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+.introduçao h1 {
+  font-size: 4rem;
+  width: 600px;
+  padding: 120px 0 30px 0;
+  position: relative;
+}
+.introduçao h1::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #faee02;
+  position: absolute;
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-left: 5px;
+}
+.introduçao p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #d6d6d2;
+  width: 520px;
+  padding-bottom: 20px;
+}
+.introduçao a {
+  display: inline-block;
+  background: #faee02;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(31, 30, 30);
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 80px;
+}
+.introduçao a:hover {
+  background: #e0d61e;
+}
+.nimbus {
+  max-width: 600px;
+  border-radius: 5px;
+}
